@@ -3,8 +3,8 @@ from django.shortcuts import render
 # Create your views here.
 def index(request):
     context = {
-        'titleID': 'WELCOME BACK',
-        'titleEN': 'Login page',
+        'titleID': 'WELCOME',
+        'titleEN': 'Register page',
         'navigasi': [
             ['/register', 'Register']
         ]
